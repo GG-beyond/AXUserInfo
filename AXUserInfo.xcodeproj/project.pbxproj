@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EBAADF31F6B6E1A00B1675F /* UserInfoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAADF21F6B6E1A00B1675F /* UserInfoHeaderView.m */; };
 		7EE609471F5CF67400CB9173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE609461F5CF67400CB9173 /* main.m */; };
 		7EE6094A1F5CF67400CB9173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE609491F5CF67400CB9173 /* AppDelegate.m */; };
 		7EE6094D1F5CF67400CB9173 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE6094C1F5CF67400CB9173 /* ViewController.m */; };
 		7EE609501F5CF67400CB9173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE6094E1F5CF67400CB9173 /* Main.storyboard */; };
 		7EE609521F5CF67400CB9173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE609511F5CF67400CB9173 /* Assets.xcassets */; };
 		7EE609551F5CF67400CB9173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE609531F5CF67400CB9173 /* LaunchScreen.storyboard */; };
+		7EE609631F5CFA2900CB9173 /* AXUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE609621F5CFA2900CB9173 /* AXUserViewController.m */; };
+		7EE609661F5CFE3500CB9173 /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE609651F5CFE3500CB9173 /* UserViewModel.m */; };
+		7EE609691F5D275E00CB9173 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE609681F5D275E00CB9173 /* UserModel.m */; };
+		7EE6096D1F5D286F00CB9173 /* UserInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE6096B1F5D286F00CB9173 /* UserInfoTableViewCell.m */; };
+		7EE6096E1F5D286F00CB9173 /* UserInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE6096C1F5D286F00CB9173 /* UserInfoTableViewCell.xib */; };
+		7EE609711F5D2ACA00CB9173 /* UserItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE609701F5D2ACA00CB9173 /* UserItemModel.m */; };
 		CEB2C8B70D0FD9F26594FEA7 /* libPods-AXUserInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5C5231EBF8970ABEB7CB4 /* libPods-AXUserInfo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E91981371B3DDABB9B61489 /* Pods-AXUserInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXUserInfo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXUserInfo/Pods-AXUserInfo.release.xcconfig"; sourceTree = "<group>"; };
 		71A5C5231EBF8970ABEB7CB4 /* libPods-AXUserInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AXUserInfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBAADF11F6B6E1A00B1675F /* UserInfoHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoHeaderView.h; sourceTree = "<group>"; };
+		7EBAADF21F6B6E1A00B1675F /* UserInfoHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoHeaderView.m; sourceTree = "<group>"; };
+		7EBAADF41F6B6E4900B1675F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7EBAADF51F6B6FA700B1675F /* AXGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXGlobal.h; sourceTree = "<group>"; };
 		7EE609421F5CF67400CB9173 /* AXUserInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXUserInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE609461F5CF67400CB9173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EE609481F5CF67400CB9173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +40,17 @@
 		7EE609511F5CF67400CB9173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EE609541F5CF67400CB9173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EE609561F5CF67400CB9173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE609611F5CFA2900CB9173 /* AXUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXUserViewController.h; sourceTree = "<group>"; };
+		7EE609621F5CFA2900CB9173 /* AXUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXUserViewController.m; sourceTree = "<group>"; };
+		7EE609641F5CFE3500CB9173 /* UserViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewModel.h; sourceTree = "<group>"; };
+		7EE609651F5CFE3500CB9173 /* UserViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewModel.m; sourceTree = "<group>"; };
+		7EE609671F5D275E00CB9173 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		7EE609681F5D275E00CB9173 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		7EE6096A1F5D286F00CB9173 /* UserInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoTableViewCell.h; sourceTree = "<group>"; };
+		7EE6096B1F5D286F00CB9173 /* UserInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoTableViewCell.m; sourceTree = "<group>"; };
+		7EE6096C1F5D286F00CB9173 /* UserInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoTableViewCell.xib; sourceTree = "<group>"; };
+		7EE6096F1F5D2ACA00CB9173 /* UserItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserItemModel.h; sourceTree = "<group>"; };
+		7EE609701F5D2ACA00CB9173 /* UserItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserItemModel.m; sourceTree = "<group>"; };
 		9A9A146A38580E9805033689 /* Pods-AXUserInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXUserInfo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXUserInfo/Pods-AXUserInfo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +99,7 @@
 				7EE609491F5CF67400CB9173 /* AppDelegate.m */,
 				7EE6094B1F5CF67400CB9173 /* ViewController.h */,
 				7EE6094C1F5CF67400CB9173 /* ViewController.m */,
+				7EE6095C1F5CF9AD00CB9173 /* AXUserInfo */,
 				7EE6094E1F5CF67400CB9173 /* Main.storyboard */,
 				7EE609511F5CF67400CB9173 /* Assets.xcassets */,
 				7EE609531F5CF67400CB9173 /* LaunchScreen.storyboard */,
@@ -90,8 +113,62 @@
 			isa = PBXGroup;
 			children = (
 				7EE609461F5CF67400CB9173 /* main.m */,
+				7EBAADF41F6B6E4900B1675F /* PrefixHeader.pch */,
+				7EBAADF51F6B6FA700B1675F /* AXGlobal.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EE6095C1F5CF9AD00CB9173 /* AXUserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				7EE609601F5CFA0200CB9173 /* Models */,
+				7EE6095F1F5CF9F600CB9173 /* ViewModels */,
+				7EE6095E1F5CF9E400CB9173 /* Views */,
+				7EE6095D1F5CF9D000CB9173 /* ViewControllers */,
+			);
+			path = AXUserInfo;
+			sourceTree = "<group>";
+		};
+		7EE6095D1F5CF9D000CB9173 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7EE609611F5CFA2900CB9173 /* AXUserViewController.h */,
+				7EE609621F5CFA2900CB9173 /* AXUserViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7EE6095E1F5CF9E400CB9173 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EE6096A1F5D286F00CB9173 /* UserInfoTableViewCell.h */,
+				7EE6096B1F5D286F00CB9173 /* UserInfoTableViewCell.m */,
+				7EE6096C1F5D286F00CB9173 /* UserInfoTableViewCell.xib */,
+				7EBAADF11F6B6E1A00B1675F /* UserInfoHeaderView.h */,
+				7EBAADF21F6B6E1A00B1675F /* UserInfoHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7EE6095F1F5CF9F600CB9173 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7EE609641F5CFE3500CB9173 /* UserViewModel.h */,
+				7EE609651F5CFE3500CB9173 /* UserViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7EE609601F5CFA0200CB9173 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7EE609671F5D275E00CB9173 /* UserModel.h */,
+				7EE609681F5D275E00CB9173 /* UserModel.m */,
+				7EE6096F1F5D2ACA00CB9173 /* UserItemModel.h */,
+				7EE609701F5D2ACA00CB9173 /* UserItemModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		83B6093EB8517F01DC75FA94 /* Pods */ = {
@@ -165,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE6096E1F5D286F00CB9173 /* UserInfoTableViewCell.xib in Resources */,
 				7EE609551F5CF67400CB9173 /* LaunchScreen.storyboard in Resources */,
 				7EE609521F5CF67400CB9173 /* Assets.xcassets in Resources */,
 				7EE609501F5CF67400CB9173 /* Main.storyboard in Resources */,
@@ -229,8 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE609631F5CFA2900CB9173 /* AXUserViewController.m in Sources */,
+				7EE609711F5D2ACA00CB9173 /* UserItemModel.m in Sources */,
 				7EE6094D1F5CF67400CB9173 /* ViewController.m in Sources */,
+				7EE609691F5D275E00CB9173 /* UserModel.m in Sources */,
+				7EBAADF31F6B6E1A00B1675F /* UserInfoHeaderView.m in Sources */,
 				7EE6094A1F5CF67400CB9173 /* AppDelegate.m in Sources */,
+				7EE609661F5CFE3500CB9173 /* UserViewModel.m in Sources */,
+				7EE6096D1F5D286F00CB9173 /* UserInfoTableViewCell.m in Sources */,
 				7EE609471F5CF67400CB9173 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,7 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2WF494FH62;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AXUserInfo/PrefixHeader.pch";
 				INFOPLIST_FILE = AXUserInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anxindeli.AXUserInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,7 +452,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2WF494FH62;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AXUserInfo/PrefixHeader.pch";
 				INFOPLIST_FILE = AXUserInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anxindeli.AXUserInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,6 +480,7 @@
 				7EE6095B1F5CF67400CB9173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
