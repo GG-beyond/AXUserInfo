@@ -7,6 +7,7 @@
 //
 
 #import "UserInfoHeaderView.h"
+#import <Masonry.h>
 @interface UserInfoHeaderView ()
 @property (nonatomic ,strong) CAGradientLayer *gradientLayer;
 @property (nonatomic ,strong) NSArray *enumTitleArray;
@@ -142,7 +143,7 @@
     
     self.enumImageArray = @[@"user_charge.png",@"user_withdraw.png",@"user_ property.png",@"user_coupons.png"];
     self.enumTitleArray = @[@"充值",@"提现",@"资产",@"优惠券"];
-    for (int i = 0; i < 4 ; i++) {
+    for (int i = 0; i < self.enumTitleArray.count ; i++) {
         UIView *enumView = [[UIView alloc]initWithFrame:CGRectZero];
         enumView.backgroundColor = [UIColor whiteColor];
         [self addSubview:enumView];
