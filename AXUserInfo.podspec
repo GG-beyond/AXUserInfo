@@ -56,8 +56,9 @@ Pod::Spec.new do |s|
 
 
   s.exclude_files = "Classes/Exclude"
-
   s.prefix_header_file = "AXUserInfo/AXGlobal.h"
+  s.public_header_files = 'AXUserInfo/AXGlobal.h'
+
   s.dependency 'AFNetworking', '~> 3.1.0'
   s.dependency 'Categories-AX','~> 0.1.0'
   s.dependency 'AX-HttpClientTool','~> 0.0.4'
