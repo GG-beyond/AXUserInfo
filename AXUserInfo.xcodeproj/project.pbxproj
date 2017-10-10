@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7EBAADF31F6B6E1A00B1675F /* UserInfoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAADF21F6B6E1A00B1675F /* UserInfoHeaderView.m */; };
 		7EE609471F5CF67400CB9173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE609461F5CF67400CB9173 /* main.m */; };
 		7EE6094A1F5CF67400CB9173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE609491F5CF67400CB9173 /* AppDelegate.m */; };
 		7EE6094D1F5CF67400CB9173 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE6094C1F5CF67400CB9173 /* ViewController.m */; };
@@ -17,8 +16,6 @@
 		7EE609631F5CFA2900CB9173 /* AXUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE609621F5CFA2900CB9173 /* AXUserViewController.m */; };
 		7EE609661F5CFE3500CB9173 /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE609651F5CFE3500CB9173 /* UserViewModel.m */; };
 		7EE609691F5D275E00CB9173 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE609681F5D275E00CB9173 /* UserModel.m */; };
-		7EE6096D1F5D286F00CB9173 /* UserInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE6096B1F5D286F00CB9173 /* UserInfoTableViewCell.m */; };
-		7EE6096E1F5D286F00CB9173 /* UserInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE6096C1F5D286F00CB9173 /* UserInfoTableViewCell.xib */; };
 		7EE609711F5D2ACA00CB9173 /* UserItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE609701F5D2ACA00CB9173 /* UserItemModel.m */; };
 		CEB2C8B70D0FD9F26594FEA7 /* libPods-AXUserInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5C5231EBF8970ABEB7CB4 /* libPods-AXUserInfo.a */; };
 /* End PBXBuildFile section */
@@ -26,10 +23,11 @@
 /* Begin PBXFileReference section */
 		6E91981371B3DDABB9B61489 /* Pods-AXUserInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXUserInfo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXUserInfo/Pods-AXUserInfo.release.xcconfig"; sourceTree = "<group>"; };
 		71A5C5231EBF8970ABEB7CB4 /* libPods-AXUserInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AXUserInfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EBAADF11F6B6E1A00B1675F /* UserInfoHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoHeaderView.h; sourceTree = "<group>"; };
-		7EBAADF21F6B6E1A00B1675F /* UserInfoHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoHeaderView.m; sourceTree = "<group>"; };
 		7EBAADF41F6B6E4900B1675F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7EBAADF51F6B6FA700B1675F /* AXGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXGlobal.h; sourceTree = "<group>"; };
+		7EC13A991F8CB917009D65FF /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC13A9A1F8CB917009D65FF /* libAX-HttpClientTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libAX-HttpClientTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC13A9B1F8CB917009D65FF /* libCategories-AX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libCategories-AX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE609421F5CF67400CB9173 /* AXUserInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXUserInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE609461F5CF67400CB9173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EE609481F5CF67400CB9173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,9 +44,6 @@
 		7EE609651F5CFE3500CB9173 /* UserViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewModel.m; sourceTree = "<group>"; };
 		7EE609671F5D275E00CB9173 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		7EE609681F5D275E00CB9173 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
-		7EE6096A1F5D286F00CB9173 /* UserInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoTableViewCell.h; sourceTree = "<group>"; };
-		7EE6096B1F5D286F00CB9173 /* UserInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoTableViewCell.m; sourceTree = "<group>"; };
-		7EE6096C1F5D286F00CB9173 /* UserInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoTableViewCell.xib; sourceTree = "<group>"; };
 		7EE6096F1F5D2ACA00CB9173 /* UserItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserItemModel.h; sourceTree = "<group>"; };
 		7EE609701F5D2ACA00CB9173 /* UserItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserItemModel.m; sourceTree = "<group>"; };
 		9A9A146A38580E9805033689 /* Pods-AXUserInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXUserInfo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXUserInfo/Pods-AXUserInfo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +64,9 @@
 		4F76ECAD1804C8DD5E2A0C8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EC13A991F8CB917009D65FF /* libAFNetworking.a */,
+				7EC13A9A1F8CB917009D65FF /* libAX-HttpClientTool.a */,
+				7EC13A9B1F8CB917009D65FF /* libCategories-AX.a */,
 				71A5C5231EBF8970ABEB7CB4 /* libPods-AXUserInfo.a */,
 			);
 			name = Frameworks;
@@ -142,11 +140,6 @@
 		7EE6095E1F5CF9E400CB9173 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7EE6096A1F5D286F00CB9173 /* UserInfoTableViewCell.h */,
-				7EE6096B1F5D286F00CB9173 /* UserInfoTableViewCell.m */,
-				7EE6096C1F5D286F00CB9173 /* UserInfoTableViewCell.xib */,
-				7EBAADF11F6B6E1A00B1675F /* UserInfoHeaderView.h */,
-				7EBAADF21F6B6E1A00B1675F /* UserInfoHeaderView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +175,16 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7EC13A9C1F8CB9C7009D65FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		7EE609411F5CF67400CB9173 /* AXUserInfo */ = {
 			isa = PBXNativeTarget;
@@ -193,6 +196,7 @@
 				7EE609401F5CF67400CB9173 /* Resources */,
 				A5D50706541D8DF2446FB184 /* [CP] Embed Pods Frameworks */,
 				68DB470B0B35DDBABD01D094 /* [CP] Copy Pods Resources */,
+				7EC13A9C1F8CB9C7009D65FF /* Headers */,
 			);
 			buildRules = (
 			);
@@ -242,7 +246,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE6096E1F5D286F00CB9173 /* UserInfoTableViewCell.xib in Resources */,
 				7EE609551F5CF67400CB9173 /* LaunchScreen.storyboard in Resources */,
 				7EE609521F5CF67400CB9173 /* Assets.xcassets in Resources */,
 				7EE609501F5CF67400CB9173 /* Main.storyboard in Resources */,
@@ -311,10 +314,8 @@
 				7EE609711F5D2ACA00CB9173 /* UserItemModel.m in Sources */,
 				7EE6094D1F5CF67400CB9173 /* ViewController.m in Sources */,
 				7EE609691F5D275E00CB9173 /* UserModel.m in Sources */,
-				7EBAADF31F6B6E1A00B1675F /* UserInfoHeaderView.m in Sources */,
 				7EE6094A1F5CF67400CB9173 /* AppDelegate.m in Sources */,
 				7EE609661F5CFE3500CB9173 /* UserViewModel.m in Sources */,
-				7EE6096D1F5D286F00CB9173 /* UserInfoTableViewCell.m in Sources */,
 				7EE609471F5CF67400CB9173 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
