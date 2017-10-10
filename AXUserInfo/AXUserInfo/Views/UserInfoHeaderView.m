@@ -7,8 +7,6 @@
 //
 
 #import "UserInfoHeaderView.h"
-#import <Masonry.h>
-#import <View+MASShorthandAdditions.h>
 @interface UserInfoHeaderView ()
 @property (nonatomic ,strong) CAGradientLayer *gradientLayer;
 @property (nonatomic ,strong) NSArray *enumTitleArray;
