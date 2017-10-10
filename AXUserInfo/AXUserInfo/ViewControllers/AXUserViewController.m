@@ -11,6 +11,8 @@
 #import "UserInfoTableViewCell.h"
 #import "UserItemModel.h"
 #import "UserInfoHeaderView.h"
+#import <Masonry.h>
+
 @interface AXUserViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong) UITableView *userTableView;
 @property (nonatomic, strong) UserViewModel *userViewModel;
@@ -27,7 +29,6 @@
 - (UITableView *)userTableView{
     
     if (!_userTableView) {
-        
         _userTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds)) style:UITableViewStyleGrouped];
         _userTableView.backgroundColor = [UIColor colorWithRed:239/255.0 green:243/255.0 blue:246/255.0 alpha:1];
         _userTableView.delegate   = self;
@@ -35,6 +36,11 @@
         _userTableView.showsVerticalScrollIndicator = NO;
         _userTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _userTableView.tableHeaderView = self.headerView;
+        if (@available(iOS 11.0, *)) {
+            _userTableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        } else {
+        }
+
     }
     return _userTableView;
 }

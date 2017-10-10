@@ -8,13 +8,12 @@
 
 #ifndef AXGlobal_h
 #define AXGlobal_h
-#import "Masonry.h"
-
 #define MAS_SHORTHAND
 
 //define this constant if you want to enable auto-boxing for default syntax
 #define MAS_SHORTHAND_GLOBALS
 
+#import <Masonry.h>
 
 //当前设备的屏幕宽度
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
