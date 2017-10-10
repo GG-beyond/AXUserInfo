@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "UserItemModel.h"
-#import <Masonry.h>
 
 @interface UserInfoTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *itemImageView;

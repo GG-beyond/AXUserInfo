@@ -11,7 +11,6 @@
 #import "UserInfoTableViewCell.h"
 #import "UserItemModel.h"
 #import "UserInfoHeaderView.h"
-#import <Masonry.h>
 
 @interface AXUserViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong) UITableView *userTableView;
