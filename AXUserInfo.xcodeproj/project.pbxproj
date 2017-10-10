@@ -435,9 +435,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A9A146A38580E9805033689 /* Pods-AXUserInfo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2WF494FH62;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AXUserInfo/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AX-HttpClientTool\"",
+					"\"${PODS_ROOT}/Headers/Public/Categories-AX\"",
+				);
 				INFOPLIST_FILE = AXUserInfo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -450,9 +458,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E91981371B3DDABB9B61489 /* Pods-AXUserInfo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2WF494FH62;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AXUserInfo/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AX-HttpClientTool\"",
+					"\"${PODS_ROOT}/Headers/Public/Categories-AX\"",
+				);
 				INFOPLIST_FILE = AXUserInfo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
