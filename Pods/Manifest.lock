@@ -1,3 +1,34 @@
-PODFILE CHECKSUM: 90c10649ba49294bbb218b5eac290b62579a6397
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AX-HttpClientTool (0.0.4):
+    - AFNetworking (~> 3.1.0)
+    - Categories-AX (~> 0.1.0)
+  - Categories-AX (0.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - AX-HttpClientTool (~> 0.0.4)
+  - Categories-AX (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AX-HttpClientTool: 5802c9135e036c2dbb7e58f06ecbfd9c16d0ae38
+  Categories-AX: f485854bc1037b2047627c3f929891b878ab611b
+
+PODFILE CHECKSUM: 7945cdc93676b7c4de4bbe1d659d406f740c4525
 
 COCOAPODS: 1.3.1

@@ -50,7 +50,26 @@
     isRefreshing = YES;
     
     __weak typeof(self)weakSelf = self;
-    
+//    [AXHttpClientTool POST:@"v1/user/info" params:nil success:^(id JSON) {
+//
+//        NSDictionary *respondDict = (NSDictionary *)JSON;
+//        NSInteger status = [respondDict[@"status"] integerValue];
+//        if (status == 0) {
+//
+//            [weakSelf dealWithProjectInfo:respondDict[@"data"]];
+//        }
+//
+//        if (weakSelf.success) {
+//
+//            weakSelf.success();
+//        }
+//    } failure:^(NSError *error) {
+//
+//        if (weakSelf.failure) {
+//            weakSelf.failure();
+//        }
+//    }];
+
 }
 - (void)dealWithProjectInfo:(NSDictionary *)data{
     //处理用户信息的
