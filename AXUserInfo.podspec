@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "AXUserInfo"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A 玩转组件化-个人用户"
 
  s.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/GG-beyond/AXUserInfo.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/GG-beyond/AXUserInfo.git", :tag => "0.0.3" }
 
 
  
@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
 
         vm.source_files =  'AXUserInfo/AXUserInfo/ViewModels/*.{h,m}'
         vm.dependency 'AXUserInfo/Models'
-        #vm.dependency 'AX-HttpClientTool','~> 0.0.4'
+        vm.dependency 'AX-HttpClientTool','~> 0.0.4'
 
 
     end
@@ -61,9 +61,9 @@ Pod::Spec.new do |s|
 
   s.exclude_files = "Classes/Exclude"
   s.prefix_header_file = "AXUserInfo/AXGlobal.h"
-  #s.dependency 'AFNetworking', '~> 3.1.0'
-  #s.dependency 'Categories-AX','~> 0.1.0'
-  #s.dependency 'AX-HttpClientTool','~> 0.0.4'
+  s.dependency 'AFNetworking', '~> 3.1.0'
+  s.dependency 'Categories-AX','~> 0.1.0'
+  s.dependency 'AX-HttpClientTool','~> 0.0.4'
 
 
  
