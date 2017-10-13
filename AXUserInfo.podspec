@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "AXUserInfo"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "A 玩转组件化-个人用户"
 
  s.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/GG-beyond/AXUserInfo.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/GG-beyond/AXUserInfo.git", :tag => "0.0.5" }
 
 
  
