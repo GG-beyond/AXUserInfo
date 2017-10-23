@@ -7,5 +7,6 @@ target 'AXUserInfo' do
   	pod 'Categories-AX','~> 0.1.0'
   	pod 'AX-HttpClientTool','~> 0.0.4'
   	pod 'CTMediator', '~> 12'
+  	pod 'AXRecharge','~> 0.0.4'
 
 end

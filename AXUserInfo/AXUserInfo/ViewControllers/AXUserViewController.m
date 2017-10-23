@@ -10,7 +10,7 @@
 #import "UserViewModel.h"
 #import "UserItemModel.h"
 #import "UserTableViewCell.h"
-
+#import <CTMediator+Recharge.h>
 @interface AXUserViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong) UITableView *userTableView;
 @property (nonatomic, strong) UserViewModel *userViewModel;
@@ -26,7 +26,7 @@
 - (UITableView *)userTableView{
     
     if (!_userTableView) {
-        _userTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds)) style:UITableViewStyleGrouped];
+        _userTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, NAVBARHEIGHT, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds)- NAVBARHEIGHT) style:UITableViewStyleGrouped];
         _userTableView.backgroundColor = [UIColor colorWithRed:239/255.0 green:243/255.0 blue:246/255.0 alpha:1];
         _userTableView.delegate   = self;
         _userTableView.dataSource = self;
@@ -80,6 +80,12 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     
     return 50.0;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    UIViewController *vc = [[CTMediator sharedInstance] rechargeVc];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

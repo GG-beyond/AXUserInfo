@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "AXUserInfo"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "A 玩转组件化-个人用户"
 
  s.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/GG-beyond/AXUserInfo.git", :tag => "0.0.5" }
+  s.source       = { :git => "https://github.com/GG-beyond/AXUserInfo.git", :tag => "0.0.6" }
 
 
  
@@ -57,6 +57,12 @@ Pod::Spec.new do |s|
         shared.dependency 'AXUserInfo/Views'
     end
 
+    s.subspec 'CTMediatorCategory' do |ct|
+
+        ct.source_files =  'AXUserInfo/AXUserInfo/CTMediatorCategory/*.{h,m}'
+        ct.dependency 'AXUserInfo/ViewControllers'
+
+    end
 
 
   s.exclude_files = "Classes/Exclude"
@@ -64,6 +70,7 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 3.1.0'
   s.dependency 'Categories-AX','~> 0.1.0'
   s.dependency 'AX-HttpClientTool','~> 0.0.4'
+  s.dependency 'CTMediator','~> 12'
 
 
  

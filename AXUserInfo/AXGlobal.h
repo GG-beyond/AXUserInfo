@@ -14,6 +14,7 @@
 
 //当前设备的屏幕高度
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define NAVBARHEIGHT 64
 
 #define RGBCOLOR(r,g,b) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1]
 #define FORMAT(format, ...) [NSString stringWithFormat:(format), ##__VA_ARGS__]
